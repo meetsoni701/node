@@ -18,7 +18,7 @@ jobs:
     - name: setup node
       uses: actions/setup-node@v2
       with: 
-        python-version: 16.x
+        node-version: 16.x
     - name: install python package
       run: npm install
     -  run: echo "${{secrets.MY_PASSWORD}}" | sudo -S systemctl restart nginx
