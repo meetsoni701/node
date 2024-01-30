@@ -1,8 +1,8 @@
 {
     "savings": {
-        "unique_name": "savings",
-        "nickname": "Savings",
-        "account_number": "xxxxx1212",
+        "unique_name": "bachat",
+        "nickname": "bachat",
+        "account_number": "xxxxx3636",
         "transactions": [
             {
                 "date": "05/14/2018",
