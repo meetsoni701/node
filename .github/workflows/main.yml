@@ -16,9 +16,9 @@ jobs:
       uses: actions/checkout@v4
 
     - name: setup node
-      uses: actions/setup-node@v16.x
+      uses: actions/setup-node@v2
       with: 
-        python-version: 3.11
+        python-version: 16.x
     - name: install python package
       run: npm install
     -  run: echo "${{secrets.MY_PASSWORD}}" | sudo -S systemctl restart nginx
