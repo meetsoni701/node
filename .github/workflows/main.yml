@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: setup node
-      uses: actions/setup-node@v16
+      uses: actions/setup-node@v16.x
       with: 
         python-version: 3.11
     - name: install python package
