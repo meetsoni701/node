@@ -1,6 +1,6 @@
 {
     "savings": {
-        "unique_name": "bachat",
+        "unique_name": "saving",
         "nickname": "bachat",
         "account_number": "xxxxx3636",
         "transactions": [
@@ -24,7 +24,7 @@
     },
     "checking": {
         "unique_name": "checking",
-        "nickname": "Checking",
+        "nickname": "tehkikat",
         "account_number": "xxxxx1213",
         "transactions": [
             {
