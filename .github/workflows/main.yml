@@ -22,8 +22,7 @@ jobs:
     - name: install python package
       run: npm install
     -  run: echo "${{secrets.MY_PASSWORD}}" | sudo -S systemctl restart nginx
-    - run: echo "node app.js" > runfile.sh
-      shell: bash
+    
    
     - run: pm2 restart all
 
